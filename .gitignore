@@ -1,0 +1,4 @@
+.idea
+php_errors.log
+vendor
+.env
