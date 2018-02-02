@@ -24,6 +24,6 @@ class CreateUserAdminData extends AbstractMigration
 
     public function down()
     {
-        $this->execute("DELETE FROM users WHERE email = 'admin@user.com'");
+        $this->execute("DELETE FROM users WHERE email = 'admin@user.com' ");
     }
 }
