@@ -6,7 +6,7 @@ namespace SONFin\Plugins;
 use Psr\Container\ContainerInterface;
 use SONFin\Models\BillPay;
 use SONFin\Models\BillReceive;
-
+use SONFin\Models\CategoryCost;
 use SONFin\Models\User;
 use SONFin\Repository\CategoryCostRepository;
 use SONFin\Repository\RepositoryFactory;

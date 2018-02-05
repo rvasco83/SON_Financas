@@ -27,7 +27,7 @@ $app->plugin(new AuthPlugin());
 
 $app->get('/home/{name}/{id}', function(ServerRequestInterface $request){
     $response = new \Zend\Diactoros\Response();
-    $response->getBody()->write("response com emitter do Diactoros");
+    $response->getBody()->write("response com emmiter do Diactoros");
     return $response;
 });
 
